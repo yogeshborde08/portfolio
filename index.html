@@ -1,216 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Yogesh Rewanand Borde, first-year engineering student in Pune.">
-    <title>Yogesh Borde | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Yogesh Rewanand Borde, first-year engineering student in Pune.">
+  <title>Yogesh Borde | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="navbar">
+    <a href="#home" class="logo">Yogesh Borde</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- navbar -->
-    <header class="navbar">
-        <a href="#home" class="logo">Yogesh Borde</a>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Welcome to My Portfolio<span>Yogesh Rewanand Borde</span></h1>
+        <p>I'm a first-year engineering student in Pune. I like coding, and I'm slowly learning by building small projects.</p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://i.pinimg.com/236x/16/d9/53/16d9530d3892d479bb882d898c2b5264.jpg" alt="Profile photo of Yogesh Borde">
+      </div>
+    </section>
 
-    <main>
-
-        <!-- home / hero -->
-        <section id="home" class="hero">
-            <div class="hero-text">
-                <h1>
-                    Welcome to My Portfolio
-                    <span>Yogesh Rewanand Borde</span>
-                </h1>
-                <p>
-                    I'm a first-year engineering student in Pune. I like coding,
-                    and I'm slowly learning by building small projects.
-                </p>
-                <a href="#contact" class="btn">Contact Me</a>
-            </div>
-            <div class="hero-image">
-                <img src="https://i.pinimg.com/236x/16/d9/53/16d9530d3892d479bb882d898c2b5264.jpg" alt="Profile photo of Yogesh Borde">
-            </div>
-        </section>
-
-        <!-- about -->
-        <section id="about" class="section">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-container">
-                <div class="about-text">
-                    <p>
-                        Hi, I'm Yogesh. I'm a first-year engineering student at
-                        Alard School of Engineering &amp; Technology in Pune.
-                    </p>
-                    <p>
-                        I like coding because of that feeling when a program finally
-                        works after a lot of errors. Right now I'm learning Python, C
-                        and the basics of web development, and I try to build small
-                        things instead of only reading about them.
-                    </p>
-                    <p>
-                        Outside studies I play chess and badminton, and I read books
-                        whenever I get free time. Chess keeps me patient, which helps
-                        a lot when my code throws the same error again and again.
-                    </p>
-                    <p>
-                        In the future I want to become a software developer and work
-                        on AI-based projects. Mall Mitra AI is my first step in that
-                        direction.
-                    </p>
-                </div>
-
-                <div class="about-card">
-                    <h3>Quick Info</h3>
-                    <ul>
-                        <li><strong>Name:</strong> Yogesh Rewanand Borde</li>
-                        <li><strong>Education:</strong> 1st year Engineering, Alard School of Engineering &amp; Technology, Pune</li>
-                        <li><strong>Goal:</strong> Software developer, mainly in AI</li>
-                        <li>
-                            <strong>Interests:</strong>
-                            <div class="badges">
-                                <span class="badge">Coding</span>
-                                <span class="badge">Chess</span>
-                                <span class="badge">Badminton</span>
-                                <span class="badge">Reading Books</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- skills -->
-        <section id="skills" class="section skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <span class="skill-icon">&lt;/&gt;</span>
-                    <h3>HTML</h3>
-                </div>
-                <div class="skill-card">
-                    <span class="skill-icon">{ }</span>
-                    <h3>CSS</h3>
-                </div>
-                <div class="skill-card">
-                    <span class="skill-icon">Py</span>
-                    <h3>Python</h3>
-                </div>
-                <div class="skill-card">
-                    <span class="skill-icon">C</span>
-                    <h3>C Programming</h3>
-                </div>
-                <div class="skill-card">
-                    <span class="skill-icon">Git</span>
-                    <h3>Git &amp; GitHub</h3>
-                </div>
-                <div class="skill-card">
-                    <span class="skill-icon">&#9823;</span>
-                    <h3>Problem Solving</h3>
-                </div>
-            </div>
-        </section>
-
-        <!-- projects -->
-        <section id="projects" class="section">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-
-                <article class="project-card">
-                    <div class="project-img img-one" role="img" aria-label="Mall Mitra AI project preview">
-                        Mall Mitra AI
-                    </div>
-                    <div class="project-info">
-                        <h3>Mall Mitra AI</h3>
-                        <p>
-                            My first big project. It is an AI-based assistant made to
-                            help mall visitors find things and get information easily.
-                            The full code is uploaded on my GitHub.
-                        </p>
-                        <a href="https://github.com/yogeshborde08" target="_blank" rel="noopener noreferrer" class="btn-outline">View Project</a>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-img img-two" role="img" aria-label="Portfolio website project preview">
-                        My Portfolio
-                    </div>
-                    <div class="project-info">
-                        <h3>Personal Portfolio Website</h3>
-                        <p>
-                            This website. I made it with plain HTML and CSS, without
-                            JavaScript. It has a responsive layout, a contact form and
-                            hover effects.
-                        </p>
-                        <a href="https://github.com/yogeshborde08/portfolio" target="_blank" rel="noopener noreferrer" class="btn-outline">View Project</a>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- contact -->
-        <section id="contact" class="section contact">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-container">
-
-                <div class="contact-info">
-                    <p>Want to talk about a project or just say hi? Send me a message.</p>
-                    <ul>
-                        <li><strong>Name:</strong> Yogesh Rewanand Borde</li>
-                        <li><strong>Email:</strong> <a href="mailto:yogeshrborde@gmail.com">yogeshrborde@gmail.com</a></li>
-                        <li><strong>Location:</strong> Pune, Maharashtra</li>
-                    </ul>
-                </div>
-
-                <form class="contact-form" action="mailto:yogeshrborde@gmail.com" method="post" enctype="text/plain">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" placeholder="Your full name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-full">Submit</button>
-                </form>
-
-            </div>
-        </section>
-
-    </main>
-
-    <!-- footer -->
-    <footer class="footer">
-        <p>&copy; 2026 Yogesh Rewanand Borde. All rights reserved.</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/yogeshr-borde-091691431" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/yogeshborde08" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <p>Hi, I'm Yogesh. I'm a first-year engineering student at Alard School of Engineering &amp; Technology in Pune.</p>
+          <p>I like coding because of that feeling when a program finally works after a lot of errors. Right now I'm learning Python, C and the basics of web development, and I try to build small things instead of only reading about them.</p>
+          <p>Outside studies I play chess and badminton, and I read books whenever I get free time. Chess keeps me patient, which helps a lot when my code throws the same error again and again.</p>
+          <p>In the future I want to become a software developer and work on AI-based projects. Mall Mitra AI is my first step in that direction.</p>
         </div>
-    </footer>
 
+        <div class="about-card">
+          <h3>Quick Info</h3>
+          <ul>
+            <li><strong>Name:</strong> Yogesh Rewanand Borde</li>
+            <li><strong>Education:</strong> 1st year Engineering, Alard School of Engineering &amp; Technology, Pune</li>
+            <li><strong>Goal:</strong> Software developer, mainly in AI</li>
+            <li><strong>Interests:</strong>
+              <div class="badges">
+                <span class="badge">Coding</span>
+                <span class="badge">Chess</span>
+                <span class="badge">Badminton</span>
+                <span class="badge">Reading Books</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>HTML</h3></div>
+        <div class="skill-card"><span class="skill-icon">{ }</span><h3>CSS</h3></div>
+        <div class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3></div>
+        <div class="skill-card"><span class="skill-icon">C</span><h3>C Programming</h3></div>
+        <div class="skill-card"><span class="skill-icon">Git</span><h3>Git &amp; GitHub</h3></div>
+        <div class="skill-card"><span class="skill-icon">&#9823;</span><h3>Problem Solving</h3></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-img img-one" role="img" aria-label="Mall Mitra AI project preview">Mall Mitra AI</div>
+          <div class="project-info">
+            <h3>Mall Mitra AI</h3>
+            <p>My first big project. It is an AI-based assistant made to help mall visitors find things and get information easily. The full code is uploaded on my GitHub.</p>
+            <a href="https://github.com/yogeshborde08" target="_blank" rel="noopener noreferrer" class="btn-outline">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img img-two" role="img" aria-label="Portfolio website project preview">My Portfolio</div>
+          <div class="project-info">
+            <h3>Personal Portfolio Website</h3>
+            <p>This website. I made it with plain HTML and CSS, without JavaScript. It has a responsive layout, a contact form and hover effects.</p>
+            <a href="https://github.com/yogeshborde08/portfolio" target="_blank" rel="noopener noreferrer" class="btn-outline">View Project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>Want to talk about a project or just say hi? Send me a message.</p>
+          <ul>
+            <li><strong>Name:</strong> Yogesh Rewanand Borde</li>
+            <li><strong>Email:</strong> <a href="mailto:yogeshrborde@gmail.com">yogeshrborde@gmail.com</a></li>
+            <li><strong>Location:</strong> Pune, Maharashtra</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="mailto:yogeshrborde@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-full">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Yogesh Rewanand Borde. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/yogeshr-borde-091691431" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/yogeshborde08" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </footer>
 </body>
 </html>
